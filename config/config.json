@@ -138,6 +138,10 @@
           "path": "/blog"
         },
         {
+          "title": "Mistakes have been made",
+          "path": "/blog/mistakes-have-been-made"
+        },
+        {
           "title": "New Years News",
           "path": "/blog/new-years-news"
         },
