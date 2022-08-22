@@ -138,6 +138,10 @@
           "path": "/blog"
         },
         {
+          "title": "Release v2.2.0",
+          "path": "/blog/release220"
+        },
+        {
           "title": "Mistakes have been made",
           "path": "/blog/mistakes-have-been-made"
         },
