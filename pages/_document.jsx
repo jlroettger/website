@@ -9,11 +9,13 @@ class MyDocument extends Document {
                     <link rel="icon" href="/favicon.ico"/>
                     <meta name="description"
                           content="Open Source Node.js Cross Platform Desktop Automation. Control the mouse, keyboard, and read the screen."/>
-		    <meta name="twitter:image:src" content="https://github.com/nut-tree/nut.js/raw/master/.gfx/nut.png"/>
-		    <meta name="twitter:site" content="@nutjsdev"/>
-		    <meta name="twitter:card" content="summary_large_image"/>
-		    <meta name="twitter:title" content="nut.js - Node.js Cross Platform Desktop Automation"/>
-		    <meta name="twitter:description" content="Open Source Node.js Cross Platform Desktop Automation. Control the mouse, keyboard, and read the screen"/>
+		    <meta name="twitter:card" content="summary_large_image" />
+		    <meta name="twitter:site" content="@nutjsdev" />
+		    <meta name="twitter:creator" content="@s1hofmann" />
+	            <meta name="twitter:title" content="nut.js - Node.js Cross Platform Desktop Automation" />
+		    <meta name="twitter:description" content="Open Source Node.js Cross Platform Desktop Automation. Control the mouse, keyboard, and read the screen" />
+		    <meta name="twitter:image" content="https://github.com/nut-tree/nut.js/raw/master/.gfx/nut.png" />
+		    <meta name="twitter:image:alt" content="The nut.js logo, a walnut" />
 		    <meta property="og:image" content="https://github.com/nut-tree/nut.js/raw/master/.gfx/nut.png"/>
 		    <meta property="og:image:alt" content="nut.js - Node.js Cross Platform Desktop Automation"/>
 		    <meta property="og:site_name" content="nutjs.dev"/>
