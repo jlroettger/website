@@ -9,7 +9,7 @@ class MyDocument extends Document {
                     <link rel="icon" href="/favicon.ico"/>
                     <meta name="description"
                           content="Open Source Node.js Cross Platform Desktop Automation. Control the mouse, keyboard, and read the screen."/>
-		    <meta name="twitter:card" content="summary" />
+		    <meta name="twitter:card" content="summary_large_image" />
 		    <meta name="twitter:site" content="@nutjsdev" />
 		    <meta name="twitter:creator" content="@s1hofmann" />
 	            <meta name="twitter:title" content="nut.js - Node.js Cross Platform Desktop Automation" />
