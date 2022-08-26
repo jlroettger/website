@@ -1,6 +1,7 @@
 ---
 part: Blog
 title: New Years News
+description: "nut.js had a great start into the new year with its long awaited 2.0.0 release!"
 tags: [release]
 updated: '2022-01-04'
 ---

@@ -1,6 +1,7 @@
 ---
 part: API
 title: Data Types
+description: "nut.js data types docs"
 ---
 
 # Image

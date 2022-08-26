@@ -1,6 +1,7 @@
 ---
 part: Migrations
 title: Migrations
+description: "Migration paths between major versions of nut.js"
 ---
 
 Major versions potentially introduce breaking changes.

@@ -1,6 +1,7 @@
 ---
 part: tutorials
 title: First Steps
+description: "First steps with nut.js - from installation to automating mouse movement"
 ---
 
 # Prerequisites

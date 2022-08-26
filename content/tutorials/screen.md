@@ -1,6 +1,7 @@
 ---
 part: tutorials
 title: On Screen Search
+description: "Learn how to search for images on your screen to use it for automation"
 ---
 
 # Image Search

@@ -1,6 +1,7 @@
 ---
 part: Blog
 title: Release v2.2.0
+description: "@nut-tree/nut-js@2.2.0 has been released!"
 tags: [release]
 updated: '2022-08-23'
 ---

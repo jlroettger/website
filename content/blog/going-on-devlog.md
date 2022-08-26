@@ -1,6 +1,7 @@
 ---
 part: Blog
 title: Going on - devlog
+description: "Those of you who are keeping an eye on the nut.js repository might have noticed something — quite a big change is on the horizon!"
 tags: [devlog]
 updated: '2021-10-28'
 ---

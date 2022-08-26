@@ -1,6 +1,7 @@
 ---
 part: tutorials
 title: Get Active Window
+description: "Learn how to enhance your workflows by working with windows"
 ---
 
 # Usage

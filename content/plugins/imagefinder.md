@@ -1,6 +1,7 @@
 ---
 part: Plugins
 title: ImageFinderInterface
+description: "ImageFinder plugins"
 ---
 
 Currently, there are two official `ImageFinder` implementations provided by nut.js.

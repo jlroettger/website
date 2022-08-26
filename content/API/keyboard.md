@@ -1,6 +1,7 @@
 ---
 part: API
 title: Keyboard Control
+description: "Simulating keyboard input with nut.js"
 ---
 
 nut.js allows simulation of keyboard input by typing text or pressing / releasing single keys or key combinations.

@@ -1,6 +1,7 @@
 ---
 part: API
 title: Screen Support
+description: "Searching your screen for images"
 ---
 
 nut.js allows searching and waiting for images on your screen to either verify certain conditions, or use them for further

@@ -1,6 +1,7 @@
 ---
 part: API
 title: Mouse Control
+description: "Simulating mouse input with nut.js"
 ---
 
 nut.js allows simulation of mouse input by moving the cursor, clicking mouse buttons or performing dragging gestures.

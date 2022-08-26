@@ -1,6 +1,7 @@
 ---
 part: Blog
 title: Does it spark joy?
+description: "Sometimes you've got to ask this simple question. Does something spark joy for you?"
 tags: [goals]
 updated: '2021-06-27'
 ---

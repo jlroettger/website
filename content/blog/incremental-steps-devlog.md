@@ -1,11 +1,10 @@
 ---
 part: Blog
 title: Incremental steps - devlog
+description: "My endeavour to get rid of nan-type bindings in nut.js, opencv4nodejs, to be precise, is making progress."
 tags: [devlog]
 updated: '2021-10-12'
 ---
-
-# Incremental steps - devlog
 
 First steps have been made!
 My endeavour to get rid of nan-type bindings in nut.js, `opencv4nodejs`, to be precise, is making progress.

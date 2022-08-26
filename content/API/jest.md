@@ -1,6 +1,7 @@
 ---
 part: API
 title: Jest integration
+description: "Extending Jest with nut.js custom matchers"
 ---
 
 nut.js provides custom matchers for Jest, which allow you to write UI tests using a well known syntax.
