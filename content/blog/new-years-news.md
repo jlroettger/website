@@ -1,6 +1,8 @@
 ---
 part: Blog
 title: New Years News
+tags: [release]
+updated: '2022-01-04'
 ---
 
 # Happy new year, everyone!

@@ -1,6 +1,8 @@
 ---
 part: Blog
 title: Does it spark joy?
+tags: [goals]
+updated: '2021-06-27'
 ---
 
 # Does it spark joy?

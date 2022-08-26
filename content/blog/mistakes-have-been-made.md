@@ -1,6 +1,8 @@
 ---
 part: Blog
 title: Mistakes have been made
+tags: [announcement]
+updated: '2022-08-10'
 ---
 
 Sometimes we all have to admit that we made a mistake.

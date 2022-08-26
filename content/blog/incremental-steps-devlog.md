@@ -1,6 +1,8 @@
 ---
 part: Blog
 title: Incremental steps - devlog
+tags: [devlog]
+updated: '2021-10-12'
 ---
 
 # Incremental steps - devlog

@@ -1,6 +1,8 @@
 ---
 part: Blog
 title: Welcome
+tags: [announcement]
+updated: '2021-06-21'
 ---
 
 Huh? A dedicated nut.js page? Including a blog? Tell me more!
