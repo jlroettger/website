@@ -53,7 +53,7 @@ export default function Sponsoring() {
                 </div>
             </div>
             <div className="mt-16 flex w-3/4 lg:w-1/2 items-center justify-center hint warn">
-                <span className="text-lg">For one-off inquiries, I'm also open for bug bounties. Feel free to <CustomLink href="mailto:kontakt@s1h.org?subject=Bug bounty">drop me a message with details.</CustomLink></span>
+                <span className="text-lg">For one-off inquiries, I'm also open for consulting inquiries and/or bug bounties. Feel free to <CustomLink href="mailto:kontakt@s1h.org?subject=Bug bounty">drop me a message with details</CustomLink>, or <CustomLink href="https://outlook.office365.com/owa/calendar/nutjs1@s1h.org/bookings/">book a timeslot yourself</CustomLink></span>
             </div>
             <Blockquote />
         </section>
