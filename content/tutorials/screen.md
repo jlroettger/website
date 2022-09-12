@@ -416,3 +416,28 @@ const { AbortController } = require("node-abort-controller");
     
 })();
 ```
+
+## Single vs. multi-scale search
+
+--- 
+
+Multi-scale image search gives you resilience when switching between multiple screen resolutions, but also comes with a price.
+Compared to searching on a single scale, it might take substantially longer when searching through multiple scales.
+
+Depending on your task at hand you might not need this additional flexibility, but instead want to benefit of a faster execution.
+See this benchmark for an example:
+
+```bash
+hyperfine --warmup 3 'node multi-scale.js' 'node single-scale.js' --show-output
+Benchmark 1: node multi-scale.js
+  Time (mean ± σ):     933.5 ms ±  10.4 ms    [User: 1647.4 ms, System: 433.8 ms]
+  Range (min … max):   920.9 ms … 948.4 ms    10 runs
+
+Benchmark 2: node single-scale.js
+  Time (mean ± σ):     526.8 ms ±   9.3 ms    [User: 400.2 ms, System: 108.4 ms]
+  Range (min … max):   514.3 ms … 544.4 ms    10 runs
+
+Summary
+  'node single-scale.js' ran
+    1.77 ± 0.04 times faster than 'node multi-scale.js'
+```
