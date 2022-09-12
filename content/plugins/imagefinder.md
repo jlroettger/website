@@ -16,6 +16,10 @@ npm i @nut-tree/template-matcher
 
 Initial implementation for on-screen image search.
 
+**Attention:** `@nut-tree/template-matcher` only supports node up to v16 and Electron up to v13.
+
+In case you want to use image search in later versions of node/Electron, please consult [the sponsoring profile](https://github.com/sponsors/s1hofmann) for access to `@nut-tree/nl-matcher`.
+
 ### Usage
 
 --- 
@@ -44,19 +48,27 @@ In case you want to get access to it, please consult [the sponsoring profile](ht
 
 **N**ext **L**evel module for image search.
 
-Comes with additional features compared to `@nut-tree/template-matcher`
+Comes with additional features compared to `@nut-tree/template-matcher`:
 
-See the table below for a comparison of both modules:
+- It is future-proof and supports a wide range of current and future node and/or Electron versions
+- It works on Apple Silicon chips
+- Supports `screen.findAll(...)` to detect multiple instances of an image on screen
+- Is faster compared to `@nut-tree/template-matcher`
 
-|                                                               | @nut-tree/template-matcher            | @nut-tree/nl-matcher                  |
-|---------------------------------------------------------------|---------------------------------------|---------------------------------------|
-| Windows                                                       |                   ✔️                   |                   ✔️                   |
-| Linux                                                         |                   ✔️                   |                   ✔️                   |
-| Apple (Intel) / Apple (Apple Silicon)                         |                 ✔️ / ❌                 |                 ✔️ / ✔️                 |
-| find                                                          |                   ✔️                   |                   ✔️                   |
-| findAll                                                       |                   ❌                   |                   ✔️                   |
-| Supports node 12 / 13 / 14 / 15 / 16 / 17 / next              | ✔️ / ❌ / ✔️ / ✔️ / ✔️ / ❌ / ❌             | ✔️ / ✔️ / ✔️ / ✔️ / ✔️ / ✔️ / ✔️             |
-| Supports Electron 8 / 9 / 10 / 11 / 12 / 13 / 14 / 15 / 16 / next | ✔️ / ✔️ / ✔️ / ✔️ / ✔️ / ✔️ / ❌ / ❌ / ❌ / ❌ | ✔️ / ✔️ / ✔️ / ✔️ / ✔️ / ✔️ / ✔️ / ✔️ / ✔️ / ✔️ |
+```bash
+hyperfine --warmup 3 'node template-matcher.js' 'node nl-matcher.js' --show-output
+Benchmark 1: node template-matcher.js
+  Time (mean ± σ):      1.575 s ±  0.016 s    [User: 1.469 s, System: 0.225 s]
+  Range (min … max):    1.545 s …  1.590 s    10 runs
+
+Benchmark 2: node nl-matcher.js
+  Time (mean ± σ):     917.3 ms ±  11.1 ms    [User: 1616.6 ms, System: 388.0 ms]
+  Range (min … max):   899.7 ms … 930.7 ms    10 runs
+
+Summary
+  'node nl-matcher.js' ran
+    1.72 ± 0.03 times faster than 'node template-matcher.js'
+```
 
 ### Usage
 
