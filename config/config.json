@@ -142,6 +142,10 @@
           "path": "/blog"
         },
         {
+          "title": "Release v2.2.1",
+          "path": "/blog/release221"
+        },
+        {
           "title": "jimp security advisory",
           "path": "/blog/jimp-security-advisory"
         },
