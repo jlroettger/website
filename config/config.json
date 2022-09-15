@@ -51,6 +51,10 @@
     {
       "title": "Github",
       "path": "https://github.com/nut-tree/nut.js"
+    },
+    {
+      "title": "API doc",
+      "path": "https://nut-tree.github.io/apidoc/index.html"
     }
   ],
   "toc": [
