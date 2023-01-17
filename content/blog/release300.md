@@ -86,7 +86,7 @@ class Logger implements LogProviderInterface {
 useLogger(new Logger());
 ```
 
-### `screen.find`
+### screen.find
 
 `screen.find` got a lot of love in this release.
 It now supports additional types of `Finders`, so now you can not just find images on screen, but also text and/or windows.
@@ -144,7 +144,7 @@ This way it's now possible to `waitFor` a window to appear, `findAll` occurrence
 
 But wait, there's even more! 🤯
 
-Not only did I release nut.js v3.0.0, but I also updated/build plugins!
+Not only did I release nut.js v3.0.0, but I also updated/built plugins!
 
 - I updated the available `ImageFinder` plugins to comply with the new `OptionalSearchParameters` interface.
 - I built a completely **NEW** plugin that gives you the ability to **read text** from screen! 👓
@@ -159,7 +159,7 @@ See the [FAQ](https://nutjs.dev/#faq-sponsor-benefits) for additional informatio
 
 Get it on [npm](https://www.npmjs.com/package/@nut-tree/nut-js)
 
-[Check out the changelog](https://github.com/nut-tree/nut.js/releases/tag/v2.3.0)
+[Check out the changelog](https://github.com/nut-tree/nut.js/releases/tag/v3.0.0)
 
 Please share your feedback on Twitter/GitHub/Discord!
 
