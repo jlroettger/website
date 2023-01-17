@@ -1,12 +1,8 @@
 ---
 part: tutorials
-title: Get Active Window
+title: Working with windows
 description: "Learn how to enhance your workflows by working with windows"
 ---
-
-# Usage
-
---- 
 
 [`getActiveWindow`](https://nut-tree.github.io/apidoc/interfaces/window_api_interface.WindowApi.html#getActiveWindow) allows you to get a [`Window`](https://nut-tree.github.io/apidoc/classes/window_class.Window.html) reference of the system's focused window at the moment of the function call.
 [`getActiveWindow`](https://nut-tree.github.io/apidoc/interfaces/window_api_interface.WindowApi.html#getActiveWindow) will return as a `Promise`.

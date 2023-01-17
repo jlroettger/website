@@ -396,15 +396,12 @@ const { AbortController } = require("node-abort-controller");
     // Configure the confidence you wish Nut to have before finding a match
     const confidence = 0.88;
     
-    // Configure whether Nut should try to match across multiple scales of Image
-    const searchMultipleScales = false;
-    
     // Configure an Abort controller so that you can cancel the find operation at any time
     const controller = new AbortController();
     const { signal } = controller;
     
     // Feed your parameters into the OptionalSearchParameters constructor to make sure they fit the spec
-    const fullSearchOptionsConfiguration = new OptionalSearchParameters(searchRegion, confidence, searchMultipleScales, signal);
+    const fullSearchOptionsConfiguration = new OptionalSearchParameters(searchRegion, confidence, signal);
     
     // .find() will return the Region where it found a match based on your search parameters and provided Image data
     const matchRegion = await screen.find(imageResource("image.png"), fullSearchOptionsConfiguration);

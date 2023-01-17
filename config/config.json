@@ -131,6 +131,10 @@
         {
           "title": "2.0.0 Migration",
           "path": "/migrations/2_0_0"
+        },
+        {
+          "title": "3.0.0 Migration",
+          "path": "/migrations/3_0_0"
         }
       ]
     },
@@ -140,6 +144,10 @@
         {
           "title": "nut.js Blog",
           "path": "/blog"
+        },
+        {
+          "title": "Release v3.0.0",
+          "path": "/blog/release300"
         },
         {
           "title": "Release v2.3.0",

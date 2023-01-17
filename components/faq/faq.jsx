@@ -24,7 +24,9 @@ const faqItems = [
                     <li>An improved image matching plugin that supports Apple Silicon chips, works across all current
                         and future node/Electron versions and provides multi-image matching
                     </li>
-                    <li>An OCR plugin (currently in beta)</li>
+                    <li>An OCR plugin which implements the `TextFinderInterface` to perform on-screen text search</li>
+                    <li>An OCR add-on to perform on-screen text extraction via OCR</li>
+                    <li>An improved low-level provider package that provides e.g. unicode support for keyboard input</li>
                 </ul>
             </div>)
     },
@@ -47,7 +49,7 @@ const faqItems = [
 
 export default function FAQ() {
     return (
-        <section className="relative py-20 2xl:py-40 ">
+        <section id="faq" className="relative py-20 2xl:py-40 ">
             <img className="hidden lg:block absolute opacity-30 bottom-0 left-1/2 h-128 w-128 -mb-128 -ml-24 -z-10"
                  src="/assets/circle.svg" alt=""/>
             <img className="hidden transform rotate-180 lg:block opacity-60 absolute top-0 right-0 h-128 w-128 -z-10"
