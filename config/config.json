@@ -116,8 +116,16 @@
           "path": "/plugins"
         },
         {
-          "title": "ImageFinder",
-          "path": "/plugins/imagefinder"
+          "title": "@nut-tree/bolt",
+          "path": "/plugins/bolt"
+        },
+        {
+          "title": "@nut-tree/template-matcher",
+          "path": "/plugins/template-matcher"
+        },
+        {
+          "title": "@nut-tree/nl-matcher",
+          "path": "/plugins/nl-matcher"
         }
       ]
     },

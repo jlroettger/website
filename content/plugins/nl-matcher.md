@@ -1,43 +1,12 @@
 ---
 part: Plugins
-title: ImageFinderInterface
-description: "ImageFinder plugins"
+title: "@nut-tree/nl-matcher"
+description: "Kind: ImageFinder provider"
 ---
 
-Currently, there are two official `ImageFinder` implementations provided by nut.js.
+---
 
-## @nut-tree/template-matcher
-
---- 
-
-```shell
-npm i @nut-tree/template-matcher
-```
-
-Initial implementation for on-screen image search.
-
-**Attention:** `@nut-tree/template-matcher` only supports node up to v16 and Electron up to v13.
-
-In case you want to use image search in later versions of node/Electron, please consult [the sponsoring profile](https://github.com/sponsors/s1hofmann) for access to `@nut-tree/nl-matcher`.
-
-### Usage
-
---- 
-
-Simply require / import the package to wire up the provider:
-
-```js
-const { screen, imageResource } = require("@nut-tree/nut-js");
-require("@nut-tree/template-matcher");
-
-(async () => {
-  const img = await screen.find(imageResource("..."));
-})();
-```
-
-## @nut-tree/nl-matcher
-
---- 
+## Installation
 
 ```shell
 npm i @nut-tree/nl-matcher
@@ -46,6 +15,10 @@ npm i @nut-tree/nl-matcher
 **Attention:** `@nut-tree/nl-matcher` is only available to sponsors of nut.js.
 In case you want to get access to it, please consult [the sponsoring profile](https://github.com/sponsors/s1hofmann)
 
+---
+
+## Description
+
 **N**ext **L**evel module for image search.
 
 Comes with additional features compared to `@nut-tree/template-matcher`:
@@ -53,6 +26,7 @@ Comes with additional features compared to `@nut-tree/template-matcher`:
 - It is future-proof and supports a wide range of current and future node and/or Electron versions
 - It works on Apple Silicon chips
 - Supports `screen.findAll(...)` to detect multiple instances of an image on screen
+- Supports alpha-channel masking of irrelevant parts of an image
 - Is faster compared to `@nut-tree/template-matcher`
 
 ```bash
@@ -70,9 +44,9 @@ Summary
     1.72 ± 0.03 times faster than 'node template-matcher.js'
 ```
 
-### Usage
+---
 
---- 
+## Usage
 
 Simply require / import the package to wire up the provider:
 
@@ -82,5 +56,30 @@ require("@nut-tree/nl-matcher");
 
 (async () => {
   const img = await screen.findAll(imageResource("..."));
+})();
+```
+
+---
+
+## Configuration
+
+`@nut-tree/nl-matcher` takes an optional configuration object passed to it via [MatchRequest#providerData](https://nut-tree.github.io/apidoc/classes/match_request_class.MatchRequest.html#providerData) property.
+
+```ts
+export interface NlMatcherProviderData {
+    searchMultipleScales: boolean; // default: true
+}
+```
+
+```js
+const {screen, imageResource} = require("@nut-tree/nut-js");
+require("@nut-tree/nl-matcher");
+
+(async () => {
+    const img = await screen.findAll(imageResource("..."), {
+        providerData: {
+            searchMultipleScales: false
+        }
+    });
 })();
 ```

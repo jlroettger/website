@@ -1,7 +1,6 @@
 ---
 part: Plugins
 title: Provider Plugins
-description: "nut.js has a modular architecture where implementation details are provided by, well, providers."
 ---
 
 nut.js has a modular architecture where implementation details are provided by, well, providers.
