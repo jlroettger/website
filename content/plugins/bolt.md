@@ -12,7 +12,7 @@ description: "Kind: Low-level provider"
 npm i @nut-tree/bolt
 ```
 
-**Attention:** `@nut-tree/nl-matcher` is only available to sponsors of nut.js.
+**Attention:** `@nut-tree/bolt` is only available to sponsors of nut.js.
 In case you want to get access to it, please consult [the sponsoring profile](https://github.com/sponsors/s1hofmann)
 
 ---
@@ -20,7 +20,7 @@ In case you want to get access to it, please consult [the sponsoring profile](ht
 ## Description
 
 `@nut-tree/bolt` is an alternative low-level provider for nut.js.
-It can replace the default `@nut-tree/nut-js` low-level provider, `@nut-tree/libnut` and comes with additional features.
+It can replace the default `@nut-tree/nut-js` low-level provider, `@nut-tree/libnut`, and comes with additional features.
 
 The most significant features at the time of writing are:
 
