@@ -126,6 +126,10 @@
         {
           "title": "@nut-tree/nl-matcher",
           "path": "/plugins/nl-matcher"
+        },
+        {
+          "title": "@nut-tree/plugin-ocr",
+          "path": "/plugins/ocr"
         }
       ]
     },

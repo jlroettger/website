@@ -12,11 +12,18 @@ export default function Hero({ctaText, ctaLink}) {
             <div className="container px-3 mx-auto">
                 <div className="flex flex-col items-center max-w-3xl mx-auto text-center">
                     <span className="text-lg text-blue-400 font-bold"></span>
-                    <h2 className="my-10 text-5xl lg:text-6xl font-bold font-heading text-white underline"><a href="https://nutjs.dev">nutjs.dev</a></h2>
+                    <h2 className="my-10 text-5xl lg:text-6xl font-bold font-heading text-white underline"><a
+                        href="https://nutjs.dev">nutjs.dev</a></h2>
                     <img className="h-32 w-32 lg:h-64 lg:w-64"
                          src="/icon.svg" alt="nut.js logo"/>
+                    <div className="text-center border-2 border-yellow-500 bg-yellow-200 p-5 rounded-2xl">
+                        <h1 className="text-5xl mb-2 font-semibold font-heading">nut.js v3.0.0 is here! 🎉</h1>
+                        <h2 className="text-2xl mb-2 font-semibold font-heading underline"><a
+                            href={"https://nutjs.dev/blog/release300"}>Read the announcement blog post here!</a></h2>
+                    </div>
                     <div className="max-w-md mx-auto">
-                        <p className="mb-20 text-lg text-gray-200">Open Source Node.js Cross Platform Desktop Automation</p>
+                        <p className="mb-20 text-lg text-gray-200">Open Source Node.js Cross Platform Desktop
+                            Automation</p>
                         <a className="inline-block py-5 px-12 text-white font-bold border border-gray-300 hover:border-gray-200 hover:bg-gray-400 rounded-full"
                            href={ctaLink}>{ctaText}</a>
                     </div>

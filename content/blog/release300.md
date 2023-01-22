@@ -153,7 +153,7 @@ Not only did I release nut.js v3.0.0, but I also updated/built plugins!
 
 All of these packages are only available to sponsors of nut.js, so if you want to get your hands on them, you can do so by becoming a sponsor.
 
-See the [FAQ](https://nutjs.dev/#faq-sponsor-benefits) for additional information.
+See the [FAQ](https://nutjs.dev/#faq-sponsor-benefits) for additional information and the [plugins section](https://nutjs.dev/plugins) for available plugins.
 
 ## What's next?
 
