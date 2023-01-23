@@ -4,10 +4,8 @@ import React from "react";
 
 const freeFeatures = [
     {
-        name: "API docs"
-    },
-    {
-        name: "Tutorials"
+        name: "@nut-tree/nut-js core package",
+        link: "https://www.npmjs.com/package/@nut-tree/nut-js"
     },
     {
         name: "@nut-tree/template-matcher package",
