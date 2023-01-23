@@ -18,9 +18,8 @@ const faqItems = [
     {
         question: <span id="faq-do-it-have-to-sponsor">Do I have to sponsor you to use nut.js?</span>,
         answer: <div>
-            <p><span className="text-3xl font-bold">No!</span> nut.js exports <a href="https://nut-tree.github.io/apidoc/modules/provider.html">defined interfaces for plugins to implement</a></p>
-            <p>I'm providing ready-to-use plugins, but you can also build your own by implementing one of these interfaces.</p>
-            <p><CustomLink href={"https://github.com/nut-tree/TemplateMatcher"}>@nut-tree/template-matcher</CustomLink> is an example of such a package.</p>
+            <p><span className="text-3xl font-bold">No!</span> You don't have to sponsor me to sue nut.js (although I'd be really greatful if you'd do it anyways).</p>
+            <p>I'm providing optional, ready-to-use plugins for sponsors, but you could also build your own by implementing <CustomLink href="https://nut-tree.github.io/apidoc/modules/provider.html">one of the available plugin interfaces.</CustomLink></p>
         </div>
     },
     {
