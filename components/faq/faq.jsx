@@ -49,7 +49,7 @@ const faqItems = [
         answer: <div id="faq-free-work">
             <p>No, sorry! I'm already providing nut.js for free, which takes up quite a lot of my time.</p>
             <p>If you want me to help you fix a problem, please refer to <a className="underline"
-                                                                            href="#faq-consulting">#3</a>.</p>
+                                                                            href="#faq-consulting">#4</a>.</p>
         </div>
     },
 ]
