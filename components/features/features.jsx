@@ -34,7 +34,7 @@ const features = [
     },
     {
         icon: <Eye/>,
-        title: "Image support",
+        title: "Visual automation & testing",
         content: "nut.js provides plug-ins to perform on-screen search for images and/or text, the key component for visual testing or automation!",
         color: "bg-yellow-300"
     },

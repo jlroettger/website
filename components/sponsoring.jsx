@@ -1,5 +1,44 @@
 import {Blockquote, CustomLink} from "./mdx-components";
+import Box from "./pricing/box";
+import React from "react";
 
+const freeFeatures = [
+    {
+        name: "API docs"
+    },
+    {
+        name: "Tutorials"
+    },
+    {
+        name: "@nut-tree/template-matcher package",
+        link: "https://nutjs.dev/plugins/template-matcher"
+    },
+];
+const individualFeatures = [
+    {
+        name: "Everything in Free"
+    },
+    {
+        name: "@nut-tree/bolt package",
+        link: "https://nutjs.dev/plugins/bolt"
+    },
+    {
+        name: "@nut-tree/nl-matcher package",
+        link: "https://nutjs.dev/plugins/nl-matcher"
+    },
+    {
+        name: "@nut-tree/plugin-ocr package",
+        link: "https://nutjs.dev/plugins/ocr"
+    },
+];
+const companyFeatures = [
+    {
+        name: "Everything in Individual"
+    },
+    {
+        name: "Prioritized issues"
+    },
+];
 export default function Sponsoring() {
     return (
         <section className="flex flex-col items-center gap-8 y-20 2xl:py-40 bg-gray-400 overflow-hidden">
@@ -50,6 +89,18 @@ export default function Sponsoring() {
                             </ul>
                         </div>
                     </div>
+                </div>
+                <div className="flex flex-wrap items-center -mx-3 pt-6 mt-12">
+                    <Box ctaLink="https://www.npmjs.com/package/@nut-tree/nut-js" ctaText="Get it on npm" title="Free"
+                         price="0.00" features={freeFeatures} isFeatured={false}/>
+                    <Box ctaLink="https://github.com/sponsors/s1hofmann" ctaText="Start sponsoring"
+                         title="Individual" price="40.00"
+                         features={individualFeatures}
+                         isFeatured={true}/>
+                    <Box ctaLink="https://github.com/sponsors/s1hofmann" ctaText="Start sponsoring"
+                         title="Company" price="130.00"
+                         features={companyFeatures}
+                         isFeatured={false}/>
                 </div>
             </div>
             <div className="mt-16 flex w-3/4 lg:w-1/2 items-center justify-center hint warn">
