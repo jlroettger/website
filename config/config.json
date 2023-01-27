@@ -158,6 +158,10 @@
           "path": "/blog"
         },
         {
+          "title": "Why I'm Charging What I'm Charging",
+          "path": "/blog/money"
+        },
+        {
           "title": "Release v3.0.0",
           "path": "/blog/release300"
         },
