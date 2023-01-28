@@ -6,7 +6,9 @@ tags: [announcement]
 updated: '2023-01-28'
 ---
 
-This is a post I've already rewritten a couple of times. Initially, I wanted to post it mid December last year, in response to a discussion on Discord. But the more I thought about it, the more I realised that there’s more to this topic than I initially anticipated.
+This is a post I've already rewritten a couple of times. 
+Initially, I wanted to post it end of December last year, in response to a discussion on Discord. 
+But the more I thought about it, the more I realised that there’s more to this topic than I initially anticipated.
 
 So, what is this all about?
 
