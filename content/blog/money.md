@@ -23,8 +23,8 @@ So I decided to charge for the new plugin, (which is faster than the initial one
 Since I made this decision, I've been continuously attacked that it would be too expensive, that I'd only be in for the money, or that I wouldn't carry the open source mind set by charging for my plug-ins.
 
 Funny enough, I've also received inquiries from (really big) companies for release dates of security fixes. 
-Or startups, asking my to help them package their Electron application which uses nut.js. 
-Alternatively they we're asking for help with code related problems.
+Or startups, asking me to help them package their Electron application which uses nut.js. 
+Alternatively they were asking for help with code related problems.
 
 What all of them have in common? 
 
