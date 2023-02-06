@@ -158,6 +158,10 @@
           "path": "/blog"
         },
         {
+          "title": "nut.js in a nutshell",
+          "path": "/blog/in-a-nutshell"
+        },
+        {
           "title": "Why I'm Charging What I'm Charging",
           "path": "/blog/money"
         },
