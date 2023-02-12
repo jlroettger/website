@@ -67,9 +67,42 @@ require("@nut-tree/nl-matcher");
 
 ```ts
 export interface NlMatcherProviderData {
-    searchMultipleScales: boolean; // default: true
+    searchMultipleScales?: boolean; // default: true
+    useGrayScale?: boolean; // default: false
+    scaleSteps?: number[]; // default: [0.9, 0.8, 0.7, 0.6, 0.5]
+    applyAlphaMask?: boolean; // default: false
 }
 ```
+
+### searchMultipleScales
+
+If set to `false`, the image will only be searched at its original scale. 
+This can be useful to speed up image search if you know that the image will only be found at its original scale.
+
+### useGrayScale
+
+If set to `true`, the image will be converted to grayscale before searching for it.
+This can be useful to speed up image search if you are not depending on full color information.
+
+**REMARKS:** 
+
+- Accuracy may suffer compared to full color search.
+- With grayscale search enabled, alpha masking is not possible.
+
+### scaleSteps
+
+If `searchMultipleScales` is set to `true`, this array defines the scale steps to be used for image search.
+
+### applyAlphaMask
+
+If set to `true`, the image will be masked with its alpha channel before searching for it.
+This allows you to ignore irrelevant parts of an image.
+
+**REMARKS:**
+
+- Alpha masking may slow down image search, especially when searching over multiple scales.
+
+## Usage example
 
 ```js
 const {screen, imageResource} = require("@nut-tree/nut-js");
