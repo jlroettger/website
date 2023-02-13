@@ -54,7 +54,7 @@ In case you want to use all available `@nut-tree/bolt` providers, you can use th
 
 ```js
 const { screen, imageResource } = require("@nut-tree/nut-js");
-const { useBolt} = require("@nut-tree/bolt");
+const { useBolt } = require("@nut-tree/bolt");
 
 useBolt(); // Now we have all @nut-tree/bolt providers set up, including the window finder
 
